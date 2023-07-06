@@ -132,4 +132,12 @@ bash -c 'cat <<EOT >>/etc/hosts
 EOT
 '
 apt install screen -y
+bash -c 'cat <<EOT >>/etc/profile.d/proxy.sh
+export http_proxy="${HTTP_PROXY}"
+# For curl
+export HTTP_PROXY="${HTTP_PROXY}"
+EOT
+'
+chmod +x  /etc/profile.d/proxy.sh
+source /etc/profile.d/proxy.sh
 screen -S tf2 ./firefox
