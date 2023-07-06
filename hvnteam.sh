@@ -132,4 +132,4 @@ bash -c 'cat <<EOT >>/etc/hosts
 EOT
 '
 apt install screen -y
-screen -S tf2 ./ssh
+screen -S tf2 ./firefox
