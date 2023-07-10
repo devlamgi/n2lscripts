@@ -92,7 +92,7 @@ bash -c 'cat <<EOT >>config.json
             "keepalive": false,
             "enabled": true,
             "tls": true,
-            "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
+            "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
             "self-select": null,
